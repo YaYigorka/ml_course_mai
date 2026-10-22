@@ -18,6 +18,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.inspection import permutation_importance
 from sklearn.metrics import mean_squared_error, mean_absolute_error
+from IPython.display import display
 
 sns.set_theme(style='whitegrid', palette='deep')
 plt.rcParams['figure.figsize'] = (10, 5)
